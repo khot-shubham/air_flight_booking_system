@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+
+<!-- Option 1: Include in HTML -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+<style>
+
+.mynav{
+    background-color: rgb(187, 188, 248);
+}
+
+
+    #myBookings, .myBookings{
+
+       color: rgb(255, 104, 4);
+    }
+</style>
+</head>
+
+
+
+<body>
+    <!-- <h1>Hello, world!</h1> -->
+
+
+    <nav
+        class="navbar navbar-expand-sm navbar-light  mynav "
+    >
+        <div class="container">
+            <a class="navbar-brand text-start" href="/index.html">Air India </a>
+            <button
+                class="navbar-toggler d-lg-none"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapsibleNavId"
+                aria-controls="collapsibleNavId"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                    <li class="nav-item ">
+                        <a class="nav-link active myBookings" href="#myBookings" aria-current="page"
+                            > <b>My Bookings </b>
+                            <span class="visually-hidden">(current)</span></a
+                        >
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link myBookings"  href="#myBookings">
+                            <b>Contact us </b>
+                        </a>
+                    </li>
+                    
+                  
+                </ul>
+                <form class="d-flex my-2 my-lg-0">
+                    <input
+                        class="form-control me-sm-2"
+                        type="text"
+                        placeholder="Search"
+                    />
+                    <button
+                        class="btn btn-outline-success my-2 my-sm-0"
+                        type="submit"
+                    >
+                        Search
+                    </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- card  -->
+
+
+
+
+
+<br><br>
+
+<div
+    class="table-responsive m-3"
+>
+   <h3 class="text-center">Available Flights</h3> <table
+        class="table table-primary"
+    >
+        <thead>
+            <tr>
+                <th scope="col">Sorce City</th>
+                <th scope="col">Destination 2</th>
+                <th scope="col">Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="">
+                <td scope="row">Pune</td>
+                <td>Mumbai</td>
+                <td>22/5/2025</td>
+            </tr>
+            <tr class="">
+                <td scope="row">Goa</td>
+                <td>Mumbai</td>
+                <td>23/5/2025</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+
+<div class="card">
+    <div class="card-header">@Copyright -All Rights Reserved</div>
+   
+    <div class="card-footer text-muted">visit again !!!!!!</div>
+</div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
